@@ -3,23 +3,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>itzeasy_india</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js" defer></script>
 </head>
 <body>
     <div class="selectblock">
-        <div class="subhead">
-            Issue :
-          </div>
-        <div class="issueparentblock">
-        <select>
-            <option value="No_issue">Choose Issue</option>
-            <option value="Sales">Sales</option>
-            <option value="Document_pickup">Document Pickup</option>
-            <option value="Document_dispatch">Document Dispatch</option>
-            <option value="Document_return">Document Return</option>
-            <option value="payment">Payment</option>
-            <option value="Driving_License_Renewal">Driving License Renewal</option>
-        </select>
+        <div class="issueaskblock"> 
+        <div class="issuehead">Do you have any kind of issue?</div>
+        <div class="radiobuttonsection">
+        <span>
+        <input type="radio" id="yes" name="issuestatus" value="yes">
+        <label for="yes" class="issuehead issuestatus">Yes</label>
+    </span>
+    <span>
+        <input type="radio" id="no" name="issuestatus" value="no" checked>
+        <label for="no" class="issuehead issuestatus" >No</label>
+    </span>
     </div>
+    </div>
+        <div class="issueparentblock">
+        <div class="issuechildblock">
+            <div class="issuehead">All Issues</div>
+            <div class="cross">
+                <img src="./cnacleUpload.svg" class="cross" alt="cross_image">
+            </div>
+            <div class="selectionofissue">
+                <div class="option">
+                    
+                </div>
+            </div>
+            </div>
+            </div>
     </div>
 </body>
 </html>
