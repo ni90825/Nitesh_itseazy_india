@@ -3,8 +3,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <script src="./anotherlogic.js" defer type="module"></script>
+    <link rel="stylesheet" href="styleissuepage.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="issuepagefull">
+        <h1 id="selectedissue" class="issuehead"></h1>
+        <div class="issuequesstion">
+<div class="slideer">
+    <div class="insideslider">
+    </div>
+    </div>
+    <div class="insideblock">
+        <div class="issuehead" id="initialheading">Let's get started!</div>
+        <div class="issuehead" id="subheading">Add your details (As per your registered records) </div>
+        <div class="inputissueblock">
+            <div>
+                <span class="isssuename">Name</span>
+                <input class="inputblock" placeholder="Enter your name">
+            </div>
+            <div>
+                <span class="isssuename">Radioinput 1</span>
+                <div class="radiostyle">
+                <span>
+                    <input type="radio" id="yes1" name="justradio1" value="yes">
+                    <label for="yes1" class="issuehead issuestatus">Yes</label>
+                </span>
+                <span>
+                    <input type="radio" id="no1" name="justradio1" value="no" checked>
+                    <label for="no1" class="issuehead issuestatus" >No</label>
+                </span>
+                </div>
+            </div>
+            <div>
+                <span class="isssuename">Radioinput 2</span>
+                <div class="radiostyle">
+                <span>
+                    <input type="radio" id="yes2" name="justradio2" value="yes">
+                    <label for="yes2" class="issuehead issuestatus">Yes</label>
+                </span>
+                <span>
+                    <input type="radio" id="no2" name="justradio2" value="no" checked>
+                    <label for="no2" class="issuehead issuestatus" >No</label>
+                </span>
+                </div>
+            </div>
+            <div>
+                <span class="isssuename">Place name:</span>
+                <input class="inputblock" placeholder="Enter your name">
+            </div>
+            <div>
+                <span class="isssuename">Selectinput 1:</span>
+                <select class="isssuenameselect">
+                    <option value="option1">Option 1</option>
+                </select>
+            </div>
+            <div>
+                <span class="isssuename">Selectinput 2:</span>
+                <select class="isssuenameselect">
+                    <option value="option1">Option 1</option>
+                </select>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="backparent">
+        <div class="back">
+            <img width="17"  src="./less-than-svgrepo-com (1).svg" alt="cross_image">
+        <span>Back</span>
+    </div>
+    </div>
+</div>
+        </div>
+    </div>
 </body>
 </html>

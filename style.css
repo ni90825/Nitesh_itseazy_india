@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900,600');
 .checkboxcontainer .chooseissueblock{
-    width: 100% !important;
-    border: 0px !important;
-    outline: 0px !important;
-    font-family: "Roboto";
+    width: 100% ;
+    border: 0px ;
+    outline: 0px ;
+    font-family: "Poppins";
     font-style: normal;
-    border: 2px solid #b9bebfb8 !important;
-    font-weight: 800 !important;
-    font-size: 13px !important;
-    line-height: 153.69% !important;
-    color: #0000006b !important;
+    border: 2px solid #b9bebfb8 ;
+    font-weight: 800 ;
+    line-height: 153.69% ;
+    color: #0000006b ;
     padding: 4px;
     border-radius: 10px;
     padding: 5px;
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    
 }
 
 .checkboxcontainer {
@@ -51,8 +54,8 @@ body{
     justify-content: center;
 }
 .issuehead{
-    font-family: "Dangrek", sans-serif;
-  font-weight: 400;
+    font-family:"Poppins";
+    font-weight: 600;
   font-style: normal;
   font-size:21px;
 color:rgb(64, 64, 64);
@@ -91,8 +94,8 @@ color:rgb(64, 64, 64);
     display:flex;
     flex-direction:column;
     gap:4px;
-    font-family: sans-serif;
-    font-weight: 504;
+    font-family: ""Poppins"";
+    font-weight: 600;
     display:flex;
     flex-direction:column;
     gap:14px;
@@ -133,15 +136,18 @@ color:rgb(64, 64, 64);
     width:100%;
     background-color: rgb(227, 227, 227);
     font-size: 14px;
-    font-weight:750;
+    font-weight:550;
     text-align:center;
     padding:14px;
     border-radius:10px;
     cursor: pointer;
     box-sizing: border-box;
-
+    color:black;
+    font-family:"Poppins";
 }
-
+a{
+    text-decoration:none;
+}
 @media only screen and (max-width: 778px) {
     .selectblock{
         width:75%;
